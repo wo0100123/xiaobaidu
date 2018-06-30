@@ -1,0 +1,26 @@
+
+    1.添加
+      create.html
+      store.php
+      
+    2.查看
+      index.php
+      {
+         获取数据
+         显示数据
+      }
+      
+    3.删除
+      a) <a href="./destroy.php?uid=???">删除</a>
+      b) destroy.php
+      
+    4.修改
+      edit.php
+      {
+          获取要修改的用户数据
+          显示在表单
+          注意,提交时传用户ID
+      }
+      save.php  保存修改后的数据
+      
+      

@@ -1,0 +1,1 @@
+<?php    include('./config.php');    include('./DB.php');            $row = (new DB('users')) -> insert($_POST);        if ($row) {        echo '添加成功';    } else {        echo '添加失败';    }    header('refresh:2;url=./create.html');
